@@ -1,0 +1,79 @@
+Recap of last Lecture :
+
+- created repository on local and remote
+- Delete some files
+- Revert changes
+- .gitigonore
+- staging process
+- How to connect with github
+- SSH connection and authentication
+- Push the changes
+
+===============Agenda================
+
+- pull + fetch from github to local repo
+
+- Rebase strategy in git
+
+- Assignment, small project
+
+=====================================
+
+Core Java Introduction
+
+==================================
+
+DataType - Variable, Operators, 
+
+ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDXkRz21IUVV5qm2TZftIBj31OQNkxaYlIDtHpMzW0xSSQGPlYQkk9j8gUHx3zUkqF28dPCkRC/Zf57955OQyIAsH9/zvbI4imiNmZeHhzADFPuBfmfFe9Zj0agTi2d0vXG0xJuHvThYEJfk8tX2SNHe5J7fqXy2+peA6hHxDQn6VtRiiJcXaZyiIqYNGWdS5SDoxK2MpUBGRS6n9BE9AkImHSIfm+Gx6U6zteDO5XNghssgQR7yMCnAVW4PErmVeiTKAoWmS/nFYKArL0A+53OS5HNDBg9BKAYsbSFIW+DV5rURjSGqwEG717c1kYGTvdgmEk0clR3T+nEE2z5rBOOF3YeB9252DRSOmK57cWDSpwUrC0RHiV/fzTSLlrEEPxkQddhbZfldtXrlMD8IXPR7UZbqJtcpahG9xhM7Rs7gvi19pbPyBVbEM/9pqh8hwYpbHBcQievJCjMsTbVJiy2MGPCW7tRkPXBkKhq7NVR1HxwAOuS3oA0tqQb40+Lqi8= root@ip-172-31-28-188
+
+
+============================================================
+
+What is pull ?
+
+=====================Small Assignment=======================
+
+1. You need to create directory.
+2. Need to create 5 files with different extensions.
+3. Need to create local repository and commit the files.
+4. Need to push the code to GitHub.
+5. Create one more file from GitHub only with GitHub repository.
+6. Need to pull newly created file in your working directory (Local Repository)
+
+New Commands :
+
+git push origin master
+git pull origin master
+
+
+=======================PULL==========================
+
+To pull all the files from the remote repository to local repository (WD).
+
+
+====================Fetch==============================
+
+If we want to just fetch the changes from remote repo. into our local repo.
+
+
+==========================
+To view the branch :
+# git branch
+
+To create the branch :
+# git branch branch-name
+
+Switch to master branch or feature branch
+# git checkout master    or   git checkout branch-name
+
+> Add your files on branch with 
+
+# git add .
+
+> Commite the files 
+
+# git commit -m "Some comments"
+
+
+
